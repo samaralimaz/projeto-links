@@ -83,6 +83,10 @@ body * {
   left: initial;
 }
 
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
+}
+
 /*span*/
 #switch span{
   display: block;
@@ -92,7 +96,6 @@ body * {
   border: 1px solid var(--stroke-color);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
-
 }
 
 /* links */
